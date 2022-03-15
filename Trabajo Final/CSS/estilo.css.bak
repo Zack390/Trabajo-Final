@@ -1,0 +1,226 @@
+	/* Tipografía */
+	@font-face {
+    font-family: 'robotolight';
+    src: url('../Fuente/roboto-light-webfont.woff2') format('woff2'),
+         url('../Fuente/roboto-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+	}
+	@font-face {
+    font-family: 'robotoblack';
+    src: url('../Fuente/roboto-black-webfont.woff2') format('woff2'),
+         url('../Fuente/roboto-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+	}
+	
+
+	/* Estilo del body*/
+	body{
+		margin:0px;
+		padding:0px;
+		width: 100%;
+		height: 100%;
+		font-family: robotolight;
+	}
+	/* Estilo de cabecera*/
+	header{
+		background-color: #8FE5FF;
+		text-align:center;
+		width:100%;
+		height:100%;
+		padding-bottom:20px;
+		padding-top:20px;
+	}
+	
+	.logo{
+		width:300px;
+		height:150px;
+	}
+	
+	/* Etilo menú de navegación  */
+	nav{
+		text-align: center;
+        width: 100%;
+		height:100%;
+        background-color: #8FE5FF;
+		font-size: 25px;
+		word-spacing: 10px;
+		font-family:robotolight;
+		
+	}
+	#menu ul{
+		list-style:none;
+		margin:0px;
+		padding:0px;
+	}
+	#menu ul li{
+		display: inline-block;	
+	}
+	#menu ul li a{
+		color:#3D4547;
+		text-decoration:none;
+		font-size:30px;
+		display:block;
+		padding:15px 50px;
+	}
+	/* Estilo del contenido */
+	section{
+		padding:10px;
+		margin:30px;
+	}
+	div{
+		color:#3D4547;
+		font-family:robotolight;
+		font-size:20px;
+	}
+	p{
+		color:#3D4547;
+		font-family:robotolight;
+		font-size:20px;
+	}
+	
+		/* Estilo Slider de Página de Inicio */
+	
+	.inicio-slider{
+		width:95%;
+		margin:auto;
+		overflow:hidden;
+	}
+	.inicio-slider ul{
+		display:flex;
+		padding:0;
+		width:300%;
+		
+		animation:cambio 15s infinite alternate;
+	}
+	
+	.inicio-slider li{
+		list-style:none;
+		text-align:center;
+		width:100%;
+	}
+	
+	.inicio-slider img{
+		width: 1000px;
+		height:600px;
+	}
+	
+	@keyframes cambio{
+		0%{ margin-left:0;}
+		33%{ margin-left:0;}
+		
+		40%{ margin-left: -100%;}
+		66%{ margin-left: -100%;}
+		
+		73%{ margin-left: -200%;}
+		100%{ margin-left: -200%;}
+	}
+	
+	
+		/*Estilo Portfolio*/
+		
+	.portfolio-imagenes{
+		width:600px;
+		height:450px;
+		margin-left:50px;
+	}
+	
+	.texto-superior{
+		vertical-align:top;
+		padding-left:20px;
+		color:#3D4547;
+		font-family:robotolight;
+		font-size:20px;
+	}
+	
+	.texto-inferior{
+		vertical-align:bottom;
+		padding-left:20px;
+		color:#3D4547;
+		font-family:robotolight;
+		font-size:20px;
+	}
+	
+		/*Estilo Presupuesto*/
+	
+	#grupo-datos{
+		color:#3D4547;
+		font-family:robotolight;
+		font-size:20px;
+	}
+	
+	#exp-previa{
+		vertical-align:top;
+	}
+
+		/* Estilo de Títulos*/
+	
+	h3{
+		color:#3D4547;
+		font-family:robotoblack;
+	}
+	h2{
+		color:#3D4547;
+		font-family:robotoblack;
+		text-align:center;
+		font-size:30px;
+	}
+	
+	/* Estilo del footer*/
+	footer{
+		width: 100%;
+		height:100%;
+		background-color: #8FE5FF;
+		font-size: 18px;
+	}
+	
+	.contenido-contacto{
+		list-style:none;
+	}
+	
+	.lista-contacto{
+		font-family:robotolight;
+		font-size:20px;
+		color:#3D4547;
+		display:inline-block;
+		vertical-align:top;
+		align-items:stretch;
+		padding:5px;
+		margin:5px;
+	}
+
+	/* Estilo de Tabla*/
+	
+	th{
+		color:#3D4547;
+		font-family:robotoblack;
+		font-size:20px;
+		padding-top:20px;
+	}
+	
+	td{
+		color:#3D4547;
+		font-family:robotolight;
+	}
+	
+	.miniatura{
+		height:25px;
+		width: 25px;
+		padding: 20px;
+	}
+	
+	.contacto{
+		padding-left:20px;
+	}
+	
+	.horario{
+		padding-left:500px;
+		
+	}
+	
+	.info{
+		padding-left:300px;
+		padding-right:20px;
+	}
+	
